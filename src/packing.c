@@ -39,7 +39,6 @@ Node *_build_tree(FILE *f) {
 
 Node *read_tree(FILE *f) {
 	Node *root = _build_tree(f);
-	fclose(f);
 	return root;
 }
 
